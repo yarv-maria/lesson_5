@@ -59,25 +59,26 @@ ul {
 
 ul::before,
 ul::after {
+	display: block;
 	position: absolute;
 	width: 220px;
+	height: auto;
 	padding: 20px;
 	font-size: 30px;
 	font-weight: bold;
 	color: silver;
 	border: 2px solid silver;
+	right: 0;
 }
 
 ul::before {
 	content: 'Этого блока здесь быть не должно ;)';
-	top: 0px;
-	right: 0px;
+	top: 0;
 }
 
 ul::after {
-	content: 'А уж этого-то и подавно!!!)';
-	bottom: 0px;
-	right: 0px;
+	content: 'А уж этого-то и подавно ghghhhhhhh hghghghgh hghghghhg ghghghghg !!!)';
+	bottom: 0;
 }
 
 

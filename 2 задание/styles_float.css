@@ -32,15 +32,21 @@
 .left-sidebar {
 	background: yellow;
 	float: left;
+	width: 20%;
+	margin: 0 20px 0 0;
 }
+
 .content {
 	background: red;
 	width: auto;
+	padding: 20px;
 }
 
 .right-sidebar {
 	background: blue;
 	float: right;
+	width: 20%;
+	margin: 0 0 0 20px;
 }
 
 .clearfix:after {
@@ -59,11 +65,4 @@
 	font-weight: 700;
 }
 
-.content {
-	padding: 20px 20px 20px 0;
-}
-
-span {
-	margin: 0 0 0 20px;
-}
 

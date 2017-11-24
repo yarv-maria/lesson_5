@@ -31,6 +31,7 @@
 }
 
 .left-sidebar {
+	width: 20%;
 	background: yellow;
 }
 
@@ -40,6 +41,7 @@
 }
 
 .right-sidebar {
+	width: 20%;
 	background: blue;
 }
 
